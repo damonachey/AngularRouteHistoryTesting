@@ -1,2 +1,0 @@
-# AngularRouteHistoryTesting
-Created with CodeSandbox
