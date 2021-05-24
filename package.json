@@ -3,15 +3,16 @@
   "version": "0.0.0",
   "license": "MIT",
   "files": [
-    "dest/"
+    "src/"
   ],
   "scripts": {
     "ng": "ng",
-    "start": "ng serve dest",
+    "start": "ng serve src/index.html",
     "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "deploy": "gh-pages -d dist"
   },
   "private": true,
   "dependencies": {
