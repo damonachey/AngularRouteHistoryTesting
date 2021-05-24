@@ -3,11 +3,11 @@
   "version": "0.0.0",
   "license": "MIT",
   "files": [
-    "src/"
+    "dest/"
   ],
   "scripts": {
     "ng": "ng",
-    "start": "ng serve src/index.html",
+    "start": "ng serve dest",
     "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
